@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio & Video</title>
+
+    <!-- <style>
+        
+        body, h1 {
+
+            padding: 0;
+            margin: 0;
+            font-family: Arial;
+        }
+
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            /* background-color: rgba(0,0,0,0.3); */
+            background-image: linear-gradient(to right, rgba(0, 242, 96, 0.3), rgba(5, 117, 230, 0.3));
+            color: rgba(255,255,255,0.5);
+            font-size: 3em;
+            position: relative;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+
+        .video-bg {
+
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            min-height: 100%;
+            min-width: 100%;
+            z-index: -1;
+        }
+
+    </style> -->
+
+
+
+</head>
+<body>
+    <!-- <audio src="audio/1.mp3" controls></audio> -->
+
+    <!-- <figure>
+
+        <figcaption>
+            Dengarkan "Ganteng ganteng swag - young lex"
+        </figcaption>
+        <audio controls loop muted>
+            <source src="audio/1.ogg" type="audio/ogg">
+            <source src="audio/1.mp3" type="audio/mpeg">
+        </audio>
+    </figure> -->
+
+    <!-- <video src="video/1.mp4" width="400" controls></video> -->
+
+    <!-- <figure>
+        <figcaption>
+            ganteng - ganteng swag
+        </figcaption>
+        <video width="400" poster="img/LOGO UNISSULA.png" loop autoplay muted>
+            <source src="video/1.mp4" type="video/mp4">
+
+            Browser tidak didukung tag <code>video</code>
+        </video>
+    </figure> -->
+
+    <!-- <div class="hero">
+        <h1>Welcome to Channa</h1>
+        <video class="video-bg" src="video/1.mp4" autoplay muted loop></video>
+
+    </div> -->
+
+    <video controls width="400">
+        <source src="video/1.mp4" type="video/mp4">
+        <track src="captions/caption2.vtt" kind="captions" title="Bahasa Indonesia" srclang="id">
+    </video>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4U3aIlPDTyU?si=f1SakqSQ8lRmqZku" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</body>
+</html>
