@@ -1,0 +1,58 @@
+.container {
+    width: 600px;
+    height: 150px;
+    border: 5px solid #333;
+    margin: 30px auto;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    /* flex-direction: row;  Untuk mengatur urutan column, column-reverse, row */
+    /* flex-wrap untuk nurunin items kalau container sudah tdk cukup */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-evenly; untuk mengatur jarak items */
+    /* align-items: baseline; */
+    /* align-items : strecth; */
+    align-items: flex-start;
+    /* align-content: space-around;  Mengatur jarak antar items terhadap cross axis (hanya berfungsi ketika items lebih dari 1 baris) */
+
+} 
+
+.container div {
+    /* width: 120px;
+    height: 120px; */
+    background-color: rgb(19, 133, 255);
+    margin: 2px;
+    /* untuk mengatur items menjadi full di container tanpa mendefinisikan width dan height nya maka otomatis items akan memenuhi container */
+    flex: 1;
+}
+
+/* .container div.tiga {
+    font-size: 60px;
+}
+
+.container div.empat {
+    font-size: 100px;
+}  percobaan baseline, dia akan mensejajarkan font nya */
+
+/* Property pada items */
+/* .satu {
+    order: 3;
+}
+.dua {
+    order: 4;
+}
+.tiga {
+    order: 2;
+}
+.empat {
+    order: 1;
+} */
+
+/* .container div.dua {
+    flex: 2;
+} akan menjadi 2 kali lipatnya flex: 1; */
+
+.container div.dua {
+    flex: 3;
+    align-self: flex-end;
+}

@@ -1,0 +1,23 @@
+
+.satu {
+	width: 200px;
+	height: 200px;
+	background-color: lightgreen;
+	margin: 10px 20px 30px 40px;
+/* searah jarum jam = atas,kanan,bawah, kiri	*/
+/* margin: 50px;  =>  ke-4 sisinya sama */
+/* atau bahkan dikombinasikan dengan auto */
+/* cara ngecek marginnya di browser pakai inspect */
+}
+
+.dua {
+	width: 100px;
+	height: 100px;
+	background-color: lightblue;
+}
+
+.tiga {
+	width: 50px;
+	height: 50px;
+	background-color: violet;
+}
