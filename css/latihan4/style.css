@@ -1,0 +1,7 @@
+body {
+	background-color: lightblue;
+	background-image: url(gambar/bg2.jpeg);
+	background-repeat: no-repeat;
+	background-position: top center;
+/*atau bisa dituliskan dengan = background: white url(gambar/bg1.jpg) no-repeat top right*/
+}
